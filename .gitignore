@@ -1,0 +1,31 @@
+# Created by https://www.gitignore.io
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Editor swapfiles ###
+.*.sw?
+*~
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Vagrant ###
+# General
+.vagrant/*
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
+### Ansible ###
+*.retry
